@@ -1,0 +1,55 @@
+.banner .banner-content h1,
+.banner .banner-content p,
+.banner .banner-content .wp-block-button .wp-block-button__link,
+.banner .banner-product-sec .wc-block-grid__product-title, 
+.banner .banner-product-sec .price,
+.product-section h2{
+	font-family: 'Montserrat', sans-serif;
+}
+/* Banner Section */
+.banner{
+	padding: 5rem 0 0 0;
+}
+.banner .banner-content{
+	margin-left: 12% !important;
+}
+.banner .banner-content .wp-block-buttons .wp-block-button__link, .banner .banner-product-sec .wc-block-grid__product-add-to-cart .wp-block-button__link{
+	padding: 6px 15px;
+	font-size: 14px;
+    font-weight: 600;
+}
+.banner .banner-content .wp-block-buttons .wp-block-button__link:hover, .banner .banner-product-sec .wc-block-grid__product-add-to-cart .wp-block-button__link:hover{
+	color: #ffffff !important;
+    background: #111111 !important;
+    border: 2px solid #111111;
+}
+.banner .banner-product-sec .wc-block-grid__product-title, .banner .banner-product-sec .price, .banner .banner-product-sec .wc-block-grid__product-add-to-cart .wp-block-button__link{
+	position: absolute;
+    left: 0;
+}
+.banner .banner-product-sec .wc-block-grid__product-title{
+	top: 30%;
+	color: #111111 !important;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.banner .banner-product-sec .price{
+	top: 42%;
+	color: #21286A;
+    font-weight: 600;
+    font-size: 15px;
+}
+.banner .banner-product-sec .wc-block-grid__product-add-to-cart{
+	bottom: 45%;
+}
+.banner .banner-product-sec .wc-block-grid__product-add-to-cart .wp-block-button__link{
+	border: 2px solid #111111;
+	border-radius: 5px;
+	background: transparent;
+  	color: #111111 !important;
+  	text-transform: uppercase;
+}
+.banner .banner-product-sec .wc-block-grid__product-onsale{
+	display: none;
+}
